@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LeafGround Automation Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Redirecting to Dashboard and Verifying the Page landed in Dashboard(failed)">
+    <classes>
+      <class name="leafGround_TestCases.Dashboard">
+        <methods>
+          <include name="ScrollTest"/>
+          <include name="launch_Browser"/>
+        </methods>
+      </class> <!-- leafGround_TestCases.Dashboard -->
+    </classes>
+  </test> <!-- Redirecting to Dashboard and Verifying the Page landed in Dashboard(failed) -->
+</suite> <!-- Failed suite [LeafGround Automation Test] -->
